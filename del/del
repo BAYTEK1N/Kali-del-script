@@ -1,0 +1,5 @@
+read -p "Do you want to delete this file? (y/n): " out
+if [ $out = "y" ]
+then
+        rm -rf $1;
+fi
